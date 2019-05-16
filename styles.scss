@@ -1,0 +1,27 @@
+%frame {
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+body {
+  p {
+    img {
+      width: 550px;
+      height: 400px;
+      padding: 5px;
+      border: 1px solid grey;
+    }
+  }
+  a {
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 3px 3px 0px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    &:hover {
+      border-color: #ffaf37;
+    }
+  }
+}
